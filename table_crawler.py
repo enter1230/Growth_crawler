@@ -113,5 +113,16 @@ plt.suptitle('인구성장률')
 plt.xlabel('년도')
 plt.ylabel('성장률')
 
+plt.show()
+
+matplotlib.rcParams["axes.unicode_minus"]=False
+plt.rc('font', family='Malgun Gothic')
+
+x=[1,2,3,4,5,6,7,8,9,10,11,12,13,14]
+plt.bar(x,content_list)
+plt.xticks(x,year_list)
+plt.suptitle('경제성장률')
+plt.xlabel('년도')
+plt.ylabel('성장률')
 
 plt.show()
